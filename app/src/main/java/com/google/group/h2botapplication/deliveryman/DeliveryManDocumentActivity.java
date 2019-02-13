@@ -1,4 +1,4 @@
-package com.google.group.h2botapplication.DeliveryMan;
+package com.google.group.h2botapplication.deliveryman;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -26,7 +26,7 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.google.group.h2botapplication.LoginActivity;
 import com.google.group.h2botapplication.R;
-import com.google.group.h2botapplication.WaterStation.MerchantAccessVerification;
+import com.google.group.h2botapplication.waterstation.MerchantAccessVerification;
 
 import java.io.IOException;
 

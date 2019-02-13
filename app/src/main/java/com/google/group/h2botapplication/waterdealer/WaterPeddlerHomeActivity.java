@@ -1,4 +1,4 @@
-package com.google.group.h2botapplication.WaterDealer;
+package com.google.group.h2botapplication.waterdealer;
 
 import android.app.Dialog;
 import android.content.Intent;

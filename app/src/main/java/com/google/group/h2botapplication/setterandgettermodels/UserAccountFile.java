@@ -1,4 +1,4 @@
-package com.google.group.h2botapplication.SetterAndGetterModels;
+package com.google.group.h2botapplication.setterandgettermodels;
 
 public class UserAccountFile {
     private String user_getUID;

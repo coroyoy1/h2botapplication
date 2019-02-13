@@ -1,4 +1,4 @@
-package com.google.group.h2botapplication.WaterStation;
+package com.google.group.h2botapplication.waterstation;
 
 import android.content.Intent;
 import android.os.Bundle;

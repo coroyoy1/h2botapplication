@@ -22,16 +22,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Customer.CustomerMainActivity"/>
+        <activity android:name=".customer.CustomerMainActivity"/>
         <activity android:name=".zCreateAccountOptionUserTypeActivity"/>
-        <activity android:name=".DeliveryMan.DeliveryManDocumentActivity"/>
-        <activity android:name=".DeliveryMan.DeliveryManMainActivity"/>
-        <activity android:name=".WaterStation.MerchantAccessVerification"/>
-        <activity android:name=".TPA.TPAffiliateMainActivity"/>
-        <activity android:name=".WaterDealer.WaterPeddlerDocumentActivity"/>
-        <activity android:name=".WaterDealer.WaterPeddlerHomeActivity"/>
-        <activity android:name=".WaterStation.WaterStationDocumentVersion2Activity"/>
-        <activity android:name=".WaterStation.WaterStationMainActivity"/>
+        <activity android:name=".deliveryman.DeliveryManDocumentActivity"/>
+        <activity android:name=".deliveryman.DeliveryManMainActivity"/>
+        <activity android:name=".waterstation.MerchantAccessVerification"/>
+        <activity android:name=".tpa.TPAffiliateMainActivity"/>
+        <activity android:name=".waterdealer.WaterPeddlerDocumentActivity"/>
+        <activity android:name=".waterdealer.WaterPeddlerHomeActivity"/>
+        <activity android:name=".waterstation.WaterStationDocumentVersion2Activity"/>
+        <activity android:name=".waterstation.WaterStationMainActivity"/>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.google.group.h2botapplication.TPA;
+package com.google.group.h2botapplication.tpa;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -16,8 +16,6 @@ import android.widget.Toast;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.group.h2botapplication.LoginActivity;
 import com.google.group.h2botapplication.R;
-
-import java.util.Objects;
 
 public class TPAffiliateMainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
     private DrawerLayout drawerLayout;

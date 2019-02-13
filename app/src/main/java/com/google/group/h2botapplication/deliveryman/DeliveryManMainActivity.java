@@ -1,4 +1,4 @@
-package com.google.group.h2botapplication.DeliveryMan;
+package com.google.group.h2botapplication.deliveryman;
 
 import android.content.Intent;
 import android.os.Bundle;

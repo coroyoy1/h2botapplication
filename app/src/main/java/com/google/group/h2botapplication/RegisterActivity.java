@@ -11,7 +11,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-import com.google.group.h2botapplication.SetterAndGetterModels.*;
+import com.google.group.h2botapplication.setterandgettermodels.*;
 import android.app.ProgressDialog;
 import android.content.ContentResolver;
 import android.content.Intent;

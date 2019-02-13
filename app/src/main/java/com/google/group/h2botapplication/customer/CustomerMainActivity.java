@@ -1,4 +1,4 @@
-package com.google.group.h2botapplication.Customer;
+package com.google.group.h2botapplication.customer;
 
 import android.app.Dialog;
 import android.content.Intent;
@@ -10,16 +10,12 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
 //import com.google.android.gms.maps.GoogleMap;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.group.h2botapplication.LoginActivity;
 import com.google.group.h2botapplication.R;
-
-import java.util.Objects;
 
 public class CustomerMainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private DrawerLayout drawerLayout;
