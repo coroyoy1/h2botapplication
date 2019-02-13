@@ -61,6 +61,7 @@ public class RegisterActivity extends AppCompatActivity {
         firebaseFirestore = FirebaseFirestore.getInstance();
         FirebaseApp.initializeApp(this);
 
+
         mAuth = FirebaseAuth.getInstance();
         String s = getIntent().getStringExtra("TextValue");
         headerTitle = findViewById(R.id.headerRegister);
