@@ -84,7 +84,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="2dp"
                     android:layout_weight="1"
-                    android:background="@drawable/z_edittextround"
+
                     android:hint="First Name"
                     android:inputType="text" />
 

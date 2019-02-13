@@ -9,6 +9,8 @@ public class UserFile {
     private String user_type;
     private String user_status;
     private String user_uri;
+    private String user_email;
+
 
 
     public UserFile()
@@ -16,7 +18,7 @@ public class UserFile {
 
     }
 
-    public UserFile(String user_getUID, String user_uri, String user_firstname, String user_lastname, String user_address, String user_phone_no, String user_type, String user_status)
+    public UserFile(String user_getUID, String user_uri, String user_firstname, String user_lastname, String user_address, String user_phone_no, String user_type, String user_status,String user_email)
     {
         this.user_getUID = user_getUID;
         this.user_uri = user_uri;
@@ -26,6 +28,15 @@ public class UserFile {
         this.user_address = user_address;
         this.user_type = user_type;
         this.user_status = user_status;
+        this.user_email = user_email;
+    }
+
+    public String getUser_email() {
+        return user_email;
+    }
+
+    public void setUser_email(String user_email) {
+        this.user_email = user_email;
     }
 
     public String getUser_uri() {

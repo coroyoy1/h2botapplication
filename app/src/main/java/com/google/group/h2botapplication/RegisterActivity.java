@@ -187,7 +187,8 @@ public class RegisterActivity extends AppCompatActivity {
                                                     addressRegister.getText().toString(),
                                                     contactRegister.getText().toString(),
                                                     userType,
-                                                    "active");
+                                                    "active",
+                                                    emailRegister.getText().toString());
                                         }
                                         else
                                         {
@@ -198,7 +199,8 @@ public class RegisterActivity extends AppCompatActivity {
                                                     addressRegister.getText().toString(),
                                                     contactRegister.getText().toString(),
                                                     userType,
-                                                    "inactive");
+                                                    "inactive",
+                                                    emailRegister.getText().toString());
                                         }
                                         firebaseFirestore.collection("User_File").document(uidString).set(userFile)
                                                 .addOnSuccessListener(new OnSuccessListener<Void>() {

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.google.group.h2botapplication">
-
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,15 +12,26 @@
         android:theme="@style/AppTheme">
         <activity android:name=".RegisterActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+    </activity>
+        <activity android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-    </activity>
-        <activity android:name=".LoginActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
         </activity>
+        <activity android:name=".Customer.CustomerMainActivity"/>
+        <activity android:name=".zCreateAccountOptionUserTypeActivity"/>
+        <activity android:name=".DeliveryMan.DeliveryManDocumentActivity"/>
+        <activity android:name=".DeliveryMan.DeliveryManMainActivity"/>
+        <activity android:name=".WaterStation.MerchantAccessVerification"/>
+        <activity android:name=".TPA.TPAffiliateMainActivity"/>
+        <activity android:name=".WaterDealer.WaterPeddlerDocumentActivity"/>
+        <activity android:name=".WaterDealer.WaterPeddlerHomeActivity"/>
+        <activity android:name=".WaterStation.WaterStationDocumentVersion2Activity"/>
+        <activity android:name=".WaterStation.WaterStationMainActivity"/>
     </application>
 
 </manifest>
